@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="metro.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="metro-form">
+        <h2>Metro Railway Form</h2>
+        
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+    
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+        </div>
+        
+        <div class="form-group">
+            <label for="from-station">From Station:</label>
+            <select id="from-station" name="from-station">
+                <option value="">Select From Station</option>
+                <option value="central">Central</option>
+                <option value="airport">Airport</option>
+                <option value="downtown">Downtown</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label for="to-station">To Station:</label>
+      <select id="to-station" name="to-station">
+          <option value="">Select To Station</option>
+          <option value="central">Central</option>
+          <option value="airport">Airport</option>
+          <option value="downtown">Downtown</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+    </div>
+    
+    <div class="form-group">
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+    </div>
+    
+    <button type="submit" id="submit">Submit</button>
+</form>
+
+</body>
+<script src="metro.js"></script>
+</html>
